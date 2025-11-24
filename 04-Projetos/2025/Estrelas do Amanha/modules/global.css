@@ -1,0 +1,51 @@
+:root {
+    --text-highlight: #E43A12;
+    --text-primary: #292524;
+    --text-secondary: #57534E;
+    --text-tertiary: #8F8881;
+    --surface-primary: #FFFFFF;
+    --surface-secondary: #FEE7D6;
+    --stroke-default: #D6D3D1;
+    --stroke-highlight: #F3541C;
+    --semantic-error: #DC2626;
+    --surface-disabled: #E7E5E4;
+    
+    
+    --brand-light: #F67841;
+    --brand-mid: #F3541C;
+    --orange: #F9A474;
+    --yellow: #FEDF6F;
+    --green: #C7D78D;
+    --pink: #F682A5;
+
+    --font-family: 'Poppins', sans-serif;
+    --h1: bold 2rem/120% var(--font-family);
+    --h2: bold 1.5rem/120% var(--font-family);
+    --h3: bold 1.25rem/120% var(--font-family);
+    --h4: bold 1rem/120% var(--font-family);
+    --text: normal 1rem/150% var(--font-family);
+    --text-sm: normal 0.875rem/140% var(--font-family);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;;
+}
+
+body {
+    font: var(--text);
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1, h2, h3 {
+    color: var(--text-primary);
+}
+
+p {
+    color: var(--text-secondary);
+}

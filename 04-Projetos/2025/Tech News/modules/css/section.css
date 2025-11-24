@@ -1,0 +1,37 @@
+.featured {
+    img {
+        height: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .card {
+        position: relative;
+        overflow: hidden;
+
+        &::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(2, 6, 23, 0) 0%, #020617 100%);
+        }
+
+        figcaption {
+            position: absolute;
+            bottom: 0;
+            padding: 24px;
+        }
+
+        .content-tag {
+            display: inline-block;
+            background-color: var(--brand-color-dark);
+            padding: 4px 8px;
+            border-radius: 4px;
+            gap: 8px;
+            text-transform: uppercase;
+            font: var(--font-family);
+            letter-spacing: 0.04em;
+
+        }
+    }
+}
